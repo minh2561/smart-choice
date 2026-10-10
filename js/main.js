@@ -33,6 +33,8 @@
     set('[data-bind="address"]', el => { el.textContent = cfg.contact.address; });
     set('[data-bind="tax-code"]', el => { el.textContent = cfg.brand.taxCode; });
     set('[data-bind="legal-name"]', el => { el.textContent = cfg.brand.legalName; });
+    set('[data-bind="representative"]', el => { el.textContent = cfg.brand.representative + (cfg.brand.representativeTitle ? ' – Chức vụ: ' + cfg.brand.representativeTitle : ''); });
+    set('[data-bind="bank-account"]', el => { el.textContent = cfg.brand.bankAccount + (cfg.brand.bankName ? ' tại ' + cfg.brand.bankName : ''); });
     set('[data-bind="current-year"]', el => { el.textContent = new Date().getFullYear(); });
   }
 
@@ -327,9 +329,9 @@
           await sendLead(data);
           form.reset();
           if (form.closest('#quote-modal')) closeModal();
-          toast('Gửi yêu cầu thành công!', 'Cảm ơn quý khách. Chuyên viên KC Event sẽ liên hệ trong 15–30 phút.');
+          toast('Gửi yêu cầu thành công!', 'Cảm ơn quý khách. Chuyên viên Smart Choice sẽ liên hệ trong 15–30 phút.');
         } catch (err) {
-          const hot = cfg ? cfg.contact.hotlineDisplay : '0981.941.820';
+          const hot = cfg ? cfg.contact.hotlineDisplay : '0914.967.632';
           toast('Chưa gửi được yêu cầu', 'Vui lòng thử lại hoặc gọi hotline ' + hot + '.', true);
         } finally {
           btn.disabled = false;
@@ -357,7 +359,7 @@
       return;
     }
     // Fallback: open a prefilled email so the lead is never lost.
-    const to = cfg ? cfg.contact.email : 'truyenthongsukienkcgroup@gmail.com';
+    const to = cfg ? cfg.contact.email : 'minhdatmedia.ceo@gmail.com';
     const body = [
       'Họ tên: ' + data.fullname, 'SĐT: ' + data.phone, 'Email: ' + (data.email || ''),
       'Công ty: ' + data.company, 'Dịch vụ: ' + data.service, 'Số khách: ' + data.guests,

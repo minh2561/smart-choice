@@ -1,8 +1,8 @@
 /**
- * KC EVENT – Nhận lead từ form website → Google Sheet + email thông báo.
+ * Smart Choice – Nhận lead từ form website → Google Sheet + email thông báo.
  *
  * CÀI ĐẶT (1 lần, ~5 phút):
- *  1. Tạo Google Sheet mới (vd: "KC Event – Leads").
+ *  1. Tạo Google Sheet mới (vd: "Smart Choice – Leads").
  *  2. Menu Tiện ích mở rộng → Apps Script, xoá code mẫu, dán toàn bộ file này.
  *  3. Sửa NOTIFY_EMAIL bên dưới nếu cần.
  *  4. Bấm Triển khai → Tùy chọn triển khai mới → Loại: Ứng dụng web
@@ -11,7 +11,7 @@
  *     → Triển khai, cấp quyền, copy "URL ứng dụng web" (…/exec).
  *  5. Dán URL vào js/config.js → leadEndpoint: "https://script.google.com/macros/s/…/exec"
  */
-const NOTIFY_EMAIL = 'truyenthongsukienkcgroup@gmail.com';
+const NOTIFY_EMAIL = 'minhdatmedia.ceo@gmail.com';
 const SHEET_NAME = 'Leads';
 const FIELDS = ['submittedAt', 'fullname', 'phone', 'email', 'company', 'service', 'guests', 'notes', 'page'];
 const HEADERS = ['Thời gian', 'Họ tên', 'SĐT', 'Email', 'Công ty', 'Dịch vụ', 'Số khách', 'Ghi chú', 'Trang'];
@@ -31,7 +31,7 @@ function doPost(e) {
 
     const mail = {
       to: NOTIFY_EMAIL,
-      subject: `[KC Event] Lead mới: ${clean(data.company)} – ${clean(data.service)}`,
+      subject: `[Smart Choice] Lead mới: ${clean(data.company)} – ${clean(data.service)}`,
       body: FIELDS.map((f, i) => `${HEADERS[i]}: ${f === 'submittedAt' ? now.toLocaleString('vi-VN') : clean(data[f])}`).join('\n'),
     };
     if (/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email || '')) mail.replyTo = data.email;

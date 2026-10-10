@@ -144,7 +144,7 @@ h1, h2, h3, h4 { line-height: 1.2; font-weight: 800; letter-spacing: -0.02em; co
 .site-header.is-scrolled { border-color: var(--c-border); box-shadow: var(--shadow-sm); }
 .header-inner { height: 100%; display: flex; align-items: center; gap: 20px; }
 .brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
-.brand img { width: 52px; height: 38px; object-fit: contain; }
+.brand img { width: 52px; height: 38px; object-fit: contain; border-radius: 4px; }
 .brand-name { font-weight: 800; font-size: 1.2rem; letter-spacing: -.01em; color: var(--c-text); line-height: 1.1; }
 .brand-name span { color: var(--c-accent); }
 .brand-sub { display: block; font-size: .68rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--c-muted); }

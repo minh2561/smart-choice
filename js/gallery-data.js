@@ -15,7 +15,7 @@ const galleryItems = [
     "srcset": "assets/img/du-an-gala-ntx-480.webp 480w, assets/img/du-an-gala-ntx-800.webp 800w",
     "width": 1600,
     "height": 1066,
-    "alt": "Tổ chức Gala Dinner Company Trip NTX Group chuyên nghiệp bởi KC Event"
+    "alt": "Tổ chức Gala Dinner Company Trip NTX Group chuyên nghiệp bởi Smart Choice"
   },
   {
     "id": "khoi-cong-genesis",

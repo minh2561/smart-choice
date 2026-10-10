@@ -5,26 +5,29 @@
  */
 const siteConfig = {
   brand: {
-    name: "KC Event",
+    name: "Smart Choice",
     slogan: "Kiến Tạo Sự Kiện Đẳng Cấp • Đồng Hành Hành Trình Vươn Xa",
     tagline: "Professional Event Organizer & Corporate Travel Partner",
-    legalName: "CÔNG TY TNHH TỔ CHỨC SỰ KIỆN VÀ TRUYỀN THÔNG KC GROUP",
-    taxCode: "0111572242",
-    representative: "Hoàng Anh",
+    legalName: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG VÀ PHÁT TRIỂN CÔNG NGHỆ MINH ĐẠT",
+    taxCode: "4900891187",
+    representative: "Ông NGUYỄN THUYẾT MINH",
+    representativeTitle: "Giám đốc",
+    bankAccount: "8400201042920",
+    bankName: "Ngân hàng Nông nghiệp và phát triển nông thôn Việt Nam - Chi nhánh tỉnh Lạng Sơn",
     foundedYear: 2016,
     licenseDate: "2026-08-25"
   },
   contact: {
-    hotline: "0981 941 820",
-    hotlineDisplay: "0981.941.820",
-    hotlineRaw: "0981941820",
-    zalo: "0981941820",
-    zaloLink: "https://zalo.me/0981941820",
+    hotline: "0914 967 632",
+    hotlineDisplay: "0914.967.632",
+    hotlineRaw: "0914967632",
+    zalo: "0914967632",
+    zaloLink: "https://zalo.me/0914967632",
     messengerLink: "https://m.me/kcevent.vn",
-    email: "truyenthongsukienkcgroup@gmail.com",
-    accountingEmail: "ketoankcgroup@gmail.com",
-    address: "Khu Đô Thị Thanh Hà, Cự Khê, Thanh Oai, Hà Nội",
-    city: "Hà Nội",
+    email: "minhdatmedia.ceo@gmail.com",
+    accountingEmail: "minhdatmedia.ceo@gmail.com",
+    address: "Ki ốt khán đài B – Sân vận động Đông Kinh, P. Vĩnh Trại, Lạng Sơn",
+    city: "Lạng Sơn",
     country: "Việt Nam",
     workingHours: "Thứ 2 - Thứ 7: 08:00 - 18:30 (Hỗ trợ Hotline 24/7)"
   },
@@ -33,7 +36,7 @@ const siteConfig = {
   leadEndpoint: "",
   social: {
     facebook: "https://facebook.com/kcevent.vn",
-    zalo: "https://zalo.me/0981941820",
+    zalo: "https://zalo.me/0914967632",
     youtube: "https://youtube.com/@kcevent",
     tiktok: "https://tiktok.com/@kcevent.vn"
   },
