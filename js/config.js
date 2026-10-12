@@ -5,7 +5,7 @@
  */
 const siteConfig = {
   brand: {
-    name: "Smart Choice",
+    name: "Minh Đạt Media",
     slogan: "Kiến Tạo Sự Kiện Đẳng Cấp • Đồng Hành Hành Trình Vươn Xa",
     tagline: "Professional Event Organizer & Corporate Travel Partner",
     legalName: "CÔNG TY CỔ PHẦN TRUYỀN THÔNG VÀ PHÁT TRIỂN CÔNG NGHỆ MINH ĐẠT",

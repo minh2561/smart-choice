@@ -1,2 +1,2 @@
 # smart-choice
-Smart Choice
+Minh Đạt Media

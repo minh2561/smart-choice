@@ -329,7 +329,7 @@
           await sendLead(data);
           form.reset();
           if (form.closest('#quote-modal')) closeModal();
-          toast('Gửi yêu cầu thành công!', 'Cảm ơn quý khách. Chuyên viên Smart Choice sẽ liên hệ trong 15–30 phút.');
+          toast('Gửi yêu cầu thành công!', 'Cảm ơn quý khách. Chuyên viên Minh Đạt Media sẽ liên hệ trong 15–30 phút.');
         } catch (err) {
           const hot = cfg ? cfg.contact.hotlineDisplay : '0914.967.632';
           toast('Chưa gửi được yêu cầu', 'Vui lòng thử lại hoặc gọi hotline ' + hot + '.', true);

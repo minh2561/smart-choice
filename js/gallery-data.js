@@ -15,21 +15,21 @@ const galleryItems = [
     "srcset": "assets/img/du-an-gala-ntx-480.webp 480w, assets/img/du-an-gala-ntx-800.webp 800w",
     "width": 1600,
     "height": 1066,
-    "alt": "Tổ chức Gala Dinner Company Trip NTX Group chuyên nghiệp bởi Smart Choice"
+    "alt": "Tổ chức Gala Dinner Company Trip NTX Group chuyên nghiệp bởi Minh Đạt Media"
   },
   {
-    "id": "khoi-cong-genesis",
+    "id": "khoi-cong-ho-son-1",
     "category": "event",
     "categoryName": "Sự Kiện & Khởi Công",
-    "title": "Lễ Khởi Công Dự Án TT Genesis",
-    "client": "Ricons Construction & TT Capital",
-    "location": "TP. Hồ Chí Minh",
-    "src": "assets/img/du-an-khoi-cong-genesis-800.webp",
-    "full": "assets/img/du-an-khoi-cong-genesis-1600.webp",
-    "srcset": "assets/img/du-an-khoi-cong-genesis-480.webp 480w, assets/img/du-an-khoi-cong-genesis-800.webp 800w",
-    "width": 1600,
-    "height": 900,
-    "alt": "Tổ chức Lễ Khởi công dự án TT Genesis Ricons quy mô chuyên nghiệp"
+    "title": "Lễ Khởi Công Dự Án Cụm Công Nghiệp Hồ Sơn 1",
+    "client": "Gia Định Group",
+    "location": "Hữu Lũng, Lạng Sơn",
+    "src": "assets/img/1791815133109_3841158694527403612_3841158694527403612_a3315048270950f05a1d836813d2bc8d.jpg",
+    "full": "assets/img/1791815133109_3841158694527403612_3841158694527403612_a3315048270950f05a1d836813d2bc8d.jpg",
+    "srcset": "assets/img/1791815133109_3841158694527403612_3841158694527403612_a3315048270950f05a1d836813d2bc8d.jpg 800w, assets/img/1791815133109_3841158694527403612_3841158694527403612_a3315048270950f05a1d836813d2bc8d.jpg 2048w",
+    "width": 2048,
+    "height": 1365,
+    "alt": "Lễ Khởi công Dự án Cụm Công nghiệp Hồ Sơn 1 - Gia Định Group tại Lạng Sơn"
   },
   {
     "id": "tb-hatu-beach",
@@ -46,18 +46,18 @@ const galleryItems = [
     "alt": "Tổ chức Team Building bãi biển cho tập đoàn Hatu Group sôi động"
   },
   {
-    "id": "khoi-cong-ducviet",
+    "id": "cong-chao-ho-son-1",
     "category": "event",
     "categoryName": "Sự Kiện & Khởi Công",
-    "title": "Lễ Khởi Công Bệnh Viện Đa Khoa Đức Việt",
-    "client": "Bệnh Viện Đa Khoa Đức Việt",
-    "location": "Hà Nội",
-    "src": "assets/img/du-an-khoi-cong-ducviet-800.webp",
-    "full": "assets/img/du-an-khoi-cong-ducviet-1600.webp",
-    "srcset": "assets/img/du-an-khoi-cong-ducviet-480.webp 480w, assets/img/du-an-khoi-cong-ducviet-800.webp 800w",
-    "width": 1600,
-    "height": 1066,
-    "alt": "Lễ Khởi công Bệnh viện Đa khoa Đức Việt quy mô lớn tại Hà Nội"
+    "title": "Cổng Chào & Nhà Bạt Khởi Công CCN Hồ Sơn 1",
+    "client": "Gia Định Group",
+    "location": "Hữu Lũng, Lạng Sơn",
+    "src": "assets/img/1791815151820_3841158694527403612_3841158694527403612_92e9cf1c08d7929b1ad4475ecabbd2e0.jpg",
+    "full": "assets/img/1791815151820_3841158694527403612_3841158694527403612_92e9cf1c08d7929b1ad4475ecabbd2e0.jpg",
+    "srcset": "assets/img/1791815151820_3841158694527403612_3841158694527403612_92e9cf1c08d7929b1ad4475ecabbd2e0.jpg 800w, assets/img/1791815151820_3841158694527403612_3841158694527403612_92e9cf1c08d7929b1ad4475ecabbd2e0.jpg 1276w",
+    "width": 1276,
+    "height": 718,
+    "alt": "Cổng chào và toàn cảnh không gian nhà bạt Lễ Khởi công Cụm Công nghiệp Hồ Sơn 1"
   },
   {
     "id": "nghi-thuc-ducviet",
